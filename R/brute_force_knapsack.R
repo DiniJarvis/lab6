@@ -2,13 +2,10 @@
 #'
 #' @param x a data.frame with two variables v and w (values and weights)
 #' @param W size (Max weight capacity)
-#'
+#' @param parallel bool
 #' @return the maximum values and elements to be carried by knapsack
 #' @examples brute_force_knapsack(x = knapsack_objects[1:8,], W = 3500)
 #' @export
-#'@importFrom utils combn
-
-library(parallel)
 
 brute_force_knapsack <- function(x,W, parallel=FALSE){
   stopifnot(is.data.frame(x),
