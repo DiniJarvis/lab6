@@ -19,6 +19,3 @@ the maximum values and elements to be carried by knapsack
 \description{
 Knapsack problem using brute force knapsack algortihm
 }
-\examples{
-brute_force_knapsack(x = knapsack_objects[1:8,], W = 3500)
-}

@@ -4,7 +4,7 @@
 #' @param W size (Max weight capacity)
 #'
 #' @return the maximum values and elements to be carried by knapsack
-#' @examples greedy_knapsack(x = knapsack_objects[1:8,], W = 3500)
+#' 
 #' @export
 #'
 

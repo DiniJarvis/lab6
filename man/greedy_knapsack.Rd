@@ -17,6 +17,3 @@ the maximum values and elements to be carried by knapsack
 \description{
 Knapsack problem using greedy algortihm
 }
-\examples{
-greedy_knapsack(x = knapsack_objects[1:8,], W = 3500)
-}

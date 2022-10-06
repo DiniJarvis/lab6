@@ -17,7 +17,3 @@ the maximum values and elements to be carried by knapsack
 \description{
 Knapsack problem using greedy algortihm
 }
-\examples{
-knapsack_dynamic(x = knapsack_objects[1:8,], W = 3500)
-knapsack_dynamic(x = knapsack_objects[1:12,], W = 2000)
-}

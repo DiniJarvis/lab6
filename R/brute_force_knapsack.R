@@ -4,7 +4,7 @@
 #' @param W size (Max weight capacity)
 #' @param parallel bool
 #' @return the maximum values and elements to be carried by knapsack
-#' @examples brute_force_knapsack(x = knapsack_objects[1:8,], W = 3500)
+#' @importFrom utils combn
 #' @export
 
 brute_force_knapsack <- function(x,W, parallel=FALSE){
