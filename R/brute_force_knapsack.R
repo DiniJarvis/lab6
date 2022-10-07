@@ -22,8 +22,8 @@ brute_force_knapsack <- function(x,W, parallel=FALSE){
   value<-0
   
   if(parallel==TRUE){
-    cores <- parallel::detectCores()
-    cores <-2
+    cores <- parallel::detectCores()-2
+    
     
     cl <- parallel::makeCluster(cores, type = "PSOCK")
     parallel::clusterExport(cl, varlist=c("x","W","elements","value"), envir=environment())

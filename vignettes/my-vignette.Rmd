@@ -1,6 +1,6 @@
 ---
 title: "Knapsack package"
-author: "Dinesh and Mahesh"
+author: "Dinesh and Umamaheswarababu"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
   #code_folding: show
