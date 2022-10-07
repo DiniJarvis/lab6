@@ -10,5 +10,8 @@ LazyData: true
 Encoding: UTF-8
 RoxygenNote: 6.1.0
 Suggests: 
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+VignetteBuilder: knitr
