@@ -262,14 +262,14 @@ profvis({
 ```
 
 ```{r echo=FALSE}
-knitr::include_graphics("D:/Linkoping University/Year1/Sem1/Period 1/profvis.png")
+knitr::include_graphics("profvis.png")
 ```
 
 The while loop is the most time consuming, taking 10ms.
 There are several techniques for improving code performance.
 While loops are always time-consuming in R, Hadly Wickham lists some techniques in the chapter. For example, to vectorize or parallelize the code (which we did to speed up the Brute force search).
 
-### 1.1.8 (*) Parallelize brute force search
+### (*) Parallelize brute force search
 
 
 ```{r}
